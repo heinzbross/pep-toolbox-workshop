@@ -1,21 +1,5 @@
-# Bemerkungen zur W-Lan Einrichtung und zur Installation auf Acer-Laptops
+# Bemerkungen zur Dualbootinstallation auf Acer-Laptops
 
-## W-Lan
-
-Da das Netz ITMC-WPA2 am 01.10.18 abgeschaltet werden soll(te), hier die Einstellungen für eduroam.
- - Wi-Fi security: WPA- & WPA2-Enterprise
- - Authentication: Geschütztes EAP (PEAP)
- - Anonymous Identity: telesec@tu-dortmund.de
- - Domain: tu-dortmund.de
- - CA-Zertifikat: T-TeleSec_GlobalRoot_Class_2.crt
-    - zu finden in usr/share/ca-certificates/mozilla/T-TeleSec_GlobalRoot_Class_2.crt
- - PEAP-Version: Automatisch
- - Inner authentication: MSCHAPv2
- - Username: smxxxx@udo.edu
- - Passwort: *******
-
-
-## Acer-Installation
 Acer ist der Ansicht, dass nur von Ihnen ausgesuchte Betribessysteme bootfähig sein sollen.
 Da das vor allem im Dualboot mit Windows und Unix-OS zu Problemen führt, hier zusammengefasst was man machen kann. Der erste Weg funktioniert bei einer Platte, oder mehreren Platten, wenn die EFI-Partition auf der ersten Platte liegt. Dann klappt es auch bei einer Dualboot-Installation.
 
